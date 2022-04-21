@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    background-color: bisque;
+}
+
+.flex-container div{
+    background-color: brown;
+    margin: 5px;
+    color: white;
+    width: 100px;
+}
+
+@media(max-width:300px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container div{
+        flex-basis: 50px;
+    }
+}
+

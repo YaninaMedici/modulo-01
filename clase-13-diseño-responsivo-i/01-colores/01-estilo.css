@@ -1,0 +1,28 @@
+*{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+@media(max-width:900px){
+    .titulo{
+        font-size: 32px;
+        background-color: palevioletred;
+    }
+}
+
+@media(max-width:599px){
+    .titulo{
+        font-size:24px;
+        background-color: greenyellow;
+    }
+}
+

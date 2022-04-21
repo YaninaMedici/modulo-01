@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.divA, .divB, .divC, .divD, .divE, .divF{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+
+
+}
